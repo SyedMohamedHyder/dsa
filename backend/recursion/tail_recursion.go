@@ -1,3 +1,4 @@
+// Function that calls itself at the end is tail recursion
 package recursion
 
 import "fmt"
