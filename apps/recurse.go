@@ -19,6 +19,15 @@ func main() {
 	fmt.Println("****Tail Recurse and Print****")
 	recursion.TailRecurseAndPrint(5)
 
-	fmt.Println("****Loop and Print****")
+	fmt.Println("****TailLoop and Print****")
 	recursion.LoopAndPrint(5)
+
+	fmt.Println("****Head Recurse and Print****")
+	recursion.HeadRecurseAndPrint(5)
+
+	fmt.Println("****Head Loop and Print****")
+	recursion.HeadLoopAndPrint(5)
+
+	fmt.Println("****Tree Recurse and Print****")
+	recursion.TreeRecurseAndPrint(5)
 }

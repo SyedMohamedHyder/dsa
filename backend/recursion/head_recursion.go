@@ -6,14 +6,14 @@ import "fmt"
 func HeadRecurseAndPrint(x int) {
 	if x > 0 {
 		HeadRecurseAndPrint(x - 1)
-		fmt.Println(x)
+		fmt.Print(x)
 	}
 }
 
 func HeadLoopAndPrint(x int) {
 	i := 1
 	for i < x {
-		fmt.Println(x)
+		fmt.Print(x)
 		i++
 	}
 }
