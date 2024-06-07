@@ -43,4 +43,13 @@ func main() {
 
 	fmt.Println("****Nested Recurse****")
 	fmt.Println(recursion.NestedRecursion(95))
+
+	fmt.Println("****Sum N Recurse****")
+	fmt.Println(recursion.SumNRecurse(5))
+
+	fmt.Println("****Sum N Loop****")
+	fmt.Println(recursion.SumNLoop(5))
+
+	fmt.Println("****Sum N Formula****")
+	fmt.Println(recursion.SumNFormula(5))
 }
