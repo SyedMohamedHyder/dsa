@@ -58,4 +58,10 @@ func main() {
 
 	fmt.Println("****Factorial N Loop****")
 	fmt.Println(recursion.FactorialNLoop(5))
+
+	fmt.Println("****Power N Recurse****")
+	fmt.Println(recursion.Power(2, 5))
+
+	fmt.Println("****Power N Optimized****")
+	fmt.Println(recursion.Power(2, 5))
 }
