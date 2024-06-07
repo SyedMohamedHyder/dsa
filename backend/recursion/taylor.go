@@ -1,8 +1,8 @@
 package recursion
 
-var a, b int = 1, 1
+var a, b float64 = 1, 1
 
-func Taylor(x, n int) int {
+func Taylor(x, n float64) float64 {
 	if n > 0 {
 		result := Taylor(x, n-1)
 		a *= x

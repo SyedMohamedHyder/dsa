@@ -66,5 +66,5 @@ func main() {
 	fmt.Println(recursion.Power(2, 5))
 
 	fmt.Println("****Taylor****")
-	fmt.Println(recursion.Taylor(2, 5))
+	fmt.Println(recursion.Taylor(4, 10))
 }
