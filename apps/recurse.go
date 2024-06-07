@@ -64,4 +64,7 @@ func main() {
 
 	fmt.Println("****Power N Optimized****")
 	fmt.Println(recursion.Power(2, 5))
+
+	fmt.Println("****Taylor****")
+	fmt.Println(recursion.Taylor(2, 5))
 }
