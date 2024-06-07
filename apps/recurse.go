@@ -67,4 +67,10 @@ func main() {
 
 	fmt.Println("****Taylor****")
 	fmt.Println(recursion.Taylor(4, 10))
+
+	fmt.Println("****Taylor Recurse****")
+	fmt.Println(recursion.TaylorRecurse(4, 10))
+
+	fmt.Println("****Taylor Loop****")
+	fmt.Println(recursion.TaylorLoop(4, 10))
 }
