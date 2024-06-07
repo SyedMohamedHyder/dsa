@@ -52,4 +52,10 @@ func main() {
 
 	fmt.Println("****Sum N Formula****")
 	fmt.Println(recursion.SumNFormula(5))
+
+	fmt.Println("****Factorial N Recurse****")
+	fmt.Println(recursion.FactorialNRecurse(5))
+
+	fmt.Println("****Factorial N Loop****")
+	fmt.Println(recursion.FactorialNLoop(5))
 }
