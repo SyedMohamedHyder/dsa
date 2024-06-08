@@ -73,4 +73,13 @@ func main() {
 
 	fmt.Println("****Taylor Loop****")
 	fmt.Println(recursion.TaylorLoop(4, 10))
+
+	fmt.Println("****Fib Recurse****")
+	fmt.Println(recursion.FibRecurse(10))
+
+	fmt.Println("****Fib Loop****")
+	fmt.Println(recursion.FibLoop(10))
+
+	fmt.Println("****Fib Memoization****")
+	fmt.Println(recursion.FibMemoization(10))
 }
