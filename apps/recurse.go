@@ -82,4 +82,10 @@ func main() {
 
 	fmt.Println("****Fib Memoization****")
 	fmt.Println(recursion.FibMemoization(10))
+
+	fmt.Println("****nCr formula****")
+	fmt.Println(recursion.NCRFormula(4, 2))
+
+	fmt.Println("****nCr recurse****")
+	fmt.Println(recursion.NCRRecurse(4, 2))
 }
