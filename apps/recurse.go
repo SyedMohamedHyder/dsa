@@ -88,4 +88,7 @@ func main() {
 
 	fmt.Println("****nCr recurse****")
 	fmt.Println(recursion.NCRRecurse(4, 2))
+
+	fmt.Println("****Tower of Hanoi****")
+	fmt.Println(recursion.TOH(3, 1, 2, 3))
 }
