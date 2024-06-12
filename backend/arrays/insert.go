@@ -5,7 +5,7 @@ func Insert(arr []int, target int) []int {
 	copy(tempArr, arr)
 
 	i := len(arr) - 1
-	for tempArr[i] > target {
+	for i != 0 && tempArr[i] > target {
 		tempArr[i+1] = tempArr[i]
 		i--
 	}

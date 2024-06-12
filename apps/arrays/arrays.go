@@ -63,4 +63,17 @@ func main() {
 	fmt.Println("****Insert****")
 	resultArr := arrays.Insert(arr, 12)
 	fmt.Println(resultArr)
+
+	arr = []int{1, 3, 5, 7, 9, 11, 13, 15, 17, 19}
+	fmt.Println("****Is Sorted (True)****")
+	fmt.Println(arrays.IsSorted(arr))
+
+	arr = []int{19, 17, 15, 13, 11, 9, 7, 5, 3, 1}
+	fmt.Println("****Is Sorted (False)****")
+	fmt.Println(arrays.IsSorted(arr))
+
+	arr = []int{1, -1, 2, -2, 3, -3, 4, -4, 5, -5, -6}
+	fmt.Println("****Move Negatives****")
+	arrays.ArrangeNegatives(arr)
+	fmt.Println(arr)
 }
