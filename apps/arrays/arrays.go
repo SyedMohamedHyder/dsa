@@ -26,8 +26,16 @@ func main() {
 	fmt.Println(arrays.BinarySearchLoop(arr, 19))
 	fmt.Println(arr)
 
-	arr = []int{1, 3, 5, 7, 9, 11, 13, 15, 17, 19}
 	fmt.Println("****Binary Search Recurse****")
 	fmt.Println(arrays.BinarySearchRecurse(arr, 19, 0, len(arr)-1))
+	fmt.Println(arr)
+
+	arr = []int{1, 3, 5, 7, 9, 11, 13, 15, 17, 19}
+	fmt.Println("****Reverse Copy Back****")
+	arrays.ReverseCopyBack(arr)
+	fmt.Println(arr)
+
+	fmt.Println("****Reverse Swap****")
+	arrays.ReverseSwap(arr)
 	fmt.Println(arr)
 }
