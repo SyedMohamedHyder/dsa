@@ -82,4 +82,16 @@ func main() {
 	fmt.Println("****Merge Arrays****")
 	resultArr = arrays.MergeArrays(arr1, arr2)
 	fmt.Println(resultArr)
+
+	arr1 = []int{1, 2, 11, 6, 15, 7, 19}
+	arr2 = []int{1, 9, 11, 13, 15, 17, 19}
+	fmt.Println("****Union UnSorted****")
+	resultArr = arrays.UnionUnSorted(arr1, arr2)
+	fmt.Println(resultArr)
+
+	arr1 = []int{1, 2, 6, 7, 11, 15, 19}
+	arr2 = []int{1, 9, 11, 13, 15, 17, 19, 20}
+	fmt.Println("****Union Sorted****")
+	resultArr = arrays.UnionSorted(arr1, arr2)
+	fmt.Println(resultArr)
 }
