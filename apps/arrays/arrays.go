@@ -106,4 +106,16 @@ func main() {
 	fmt.Println("****Intersection Sorted****")
 	resultArr = arrays.IntersectionSorted(arr1, arr2)
 	fmt.Println(resultArr)
+
+	arr1 = []int{19, 2, 11, 6, 15, 7, 1}
+	arr2 = []int{1, 9, 11, 13, 15, 17, 19, 20}
+	fmt.Println("****Difference UnSorted****")
+	resultArr = arrays.DifferenceUnSorted(arr1, arr2)
+	fmt.Println(resultArr)
+
+	arr1 = []int{1, 2, 6, 7, 11, 15, 19}
+	arr2 = []int{1, 9, 11, 13, 15, 17, 19, 20}
+	fmt.Println("****Difference Sorted****")
+	resultArr = arrays.DifferenceSorted(arr1, arr2)
+	fmt.Println(resultArr)
 }
