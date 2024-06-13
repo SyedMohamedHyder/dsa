@@ -76,4 +76,10 @@ func main() {
 	fmt.Println("****Move Negatives****")
 	arrays.ArrangeNegatives(arr)
 	fmt.Println(arr)
+
+	arr1 := []int{1, 9, 11, 13, 15, 17, 19}
+	arr2 := []int{2, 4, 6, 8, 10, 16, 18, 20}
+	fmt.Println("****Merge Arrays****")
+	resultArr = arrays.MergeArrays(arr1, arr2)
+	fmt.Println(resultArr)
 }
